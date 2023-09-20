@@ -6,8 +6,9 @@
 
         <head>
             <title>Buscador de Objetos en una Tabla</title>
-            <link rel="stylesheet" href="styles.css">
-            <script src="Funcionamiento De Buscador.js"></script>
+            <link rel="stylesheet" href="style.css">
+            <script src="FuncionamientoDeBuscador.js"></script>
+            <script src="script.js"></script>
         </head>
 
         <head>
@@ -27,6 +28,7 @@
                         <th>Categoría</th>
                         <th>Calidad</th>
                         <th>Precio</th>
+                        <th>Comprar</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,12 +37,14 @@
                         <td>Divugo</td>
                         <td>Baja</td>
                         <td>$20</td>
+                        <td> <button onclick="PagarF(1)">Comprar</button> </td>
                     </tr>
                     <tr>
                         <td>Divugo Aleix</td>
                         <td>Divugo</td>
                         <td>Media</td>
                         <td>$50</td>
+                        <td> <button onclick="PagarF(2)">Comprar</button> </td>
                     </tr>
 
                     <!-- Agrega más filas para tus objetos -->
