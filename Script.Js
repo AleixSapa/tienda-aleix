@@ -1,10 +1,21 @@
-var CuentaMama
-//var DineroDeLaCuenta = 500;
+var CosasParaPagar
+var DineroMama = 500
+var NombreDeUsuario
+var Dinero
+
 function PagarF() {
-    if (Pagar === (1)) { Pagar(1) }
-    else (Pagar === (1)){ }
+    if (PagarF === (1)) { DineroMama = DineroMama - 20 }
+
 }
-function PagarF() {
-    CuentaMama = 500;
-    console.log(CuentaMama)
+function OnReg() {
+    NombreDeUsuario = prompt('Pon Tu Nombre De Usuario')
+    alert('Hola ' + NombreDeUsuario)
+    if (NombreDeUsuario === Vane) {
+        alert('Hola ' + NombreDeUsuario)
+        NombreDeUsuario = Vane
+    } { }
+    ifelse(NombreDeUsuario === Esanpons)
+    { NombreDeUsuario = Esanpons }
+
+
 }
