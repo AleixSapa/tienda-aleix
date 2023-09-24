@@ -5,7 +5,7 @@ var Dinero
 
 function PagarF() {
     if (PagarF === (1)) { DineroMama = DineroMama - 20 }
-
+    console.log(Dinero)
 }
 function OnReg() {
     NombreDeUsuario = prompt('Pon Tu Nombre De Usuario')

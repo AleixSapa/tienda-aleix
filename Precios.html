@@ -8,7 +8,7 @@
             <title>Buscador de Objetos en una Tabla</title>
             <link rel="stylesheet" href="style.css">
             <script src="FuncionamientoDeBuscador.js"></script>
-            <script src="script.js"></script>
+            <!----      <script src="script.js"></script>   ----->
         </head>
 
         <head>
@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <button onclick="OnReg()">Registrarse</button>
+        <!----   <button onclick="OnReg()">Registrarse</button> -->
         <div class="container">
             <h1>Buscador de Objetos en una Tabla</h1>
             <input type="text" id="search-input" placeholder="Buscar objeto...">
@@ -29,24 +29,70 @@
                         <th>Categoría</th>
                         <th>Calidad</th>
                         <th>Precio</th>
-                        <th>Comprar</th>
+                        <!--<th>Comprar</th--->
+                        <th>Mostrar</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Divugo Aleix</td>
                         <td>Divugo</td>
-                        <td>Baja</td>
+                        <td>Baja</td>/
                         <td>$20</td>
-                        <td> <button onclick="PagarF(1)">Comprar</button>
+                        <!--<td> <button onclick="PagarF(1)">Comprar</button></td>-->
+                        <td><a target="_blank" href="Z Mostarar/Divugo.Html">Mostrar</a></td>
                     </tr>
                     <tr>
                         <td>Divugo Aleix</td>
                         <td>Divugo</td>
                         <td>Media</td>
-                        <td>$50</td>
-                        <td> <button onclick="PagarF(2)">Comprar</button> </td>
+                        <td>$40</td>
+                        <td><a target="_blank" href="Z Mostarar/Divugo.Html">Mostrar</a></td>
                     </tr>
+                    <tr>
+                        <td>Divugo Aleix</td>
+                        <td>Divugo</td>
+                        <td>Alta</td>
+                        <td>$70</td>
+                        <td><a target="_blank" href="Z Mostarar/Divugo.Html">Mostrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Divugo Aleix</td>
+                        <td>Divugo</td>
+                        <td>Muy Alta</td>
+                        <td>$100</td>
+                        <td><a target="_blank" href="Z Mostarar/Divugo.Html">Mostrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pagina Web</td>
+                        <td>Pagina Wep</td>
+                        <td>Html</td>
+                        <td>$30</td>
+                        <td><a href="">Mostrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pagina Wep</td>
+                        <td>Pagina Wep</td>
+                        <td>Html,Css</td>
+                        <td>$45</td>
+                        <td><a href="">Mostrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pagina Wep</td>
+                        <td>Pagina Wep</td>
+                        <td>Html,JavaScript</td>
+                        <td>$80</td>
+                        <td><a href="">Mostrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pagina Wep</td>
+                        <td>Pagina Wep</td>
+                        <td>Html,Css,JavaScript</td>
+                        <td>$125</td>
+                        <td><a href="">Mostrar</a></td>
+                    </tr>
+
+
 
                     <!-- Agrega más filas para tus objetos -->
                 </tbody>
